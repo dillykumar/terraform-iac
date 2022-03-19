@@ -4,7 +4,7 @@ resource "aws_vpc" "myvpc" {
   tags = {
     Name  = "${var.vpc_name}"
     Owner = "Dilly"
-    #environment = "Prod"
+    environment = "Prod"
   }
 
 }
